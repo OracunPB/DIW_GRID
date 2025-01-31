@@ -1,0 +1,371 @@
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+.divisorBasico {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid 2px;
+    padding: 5px;
+}
+
+.subContainer1 {
+}
+
+.subContainer1:nth-child(1) {
+    background-color: brown;
+}
+
+.subContainer1:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer1:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer1:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer1:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer1:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer1:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer1:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer1:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    border: solid 2px;
+    padding: 5px;
+}
+
+.subContainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.subContainer2:nth-child(1) {
+    background-color: brown;
+}
+
+.subContainer2:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer2:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer2:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer2:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer2:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer2:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer2:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer2:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer3 {
+    display: flex;
+    justify-content: center;
+}
+
+.subContainer3:nth-child(1) {
+    background-color: brown;
+    
+}
+
+.subContainer3:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer3:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer3:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer3:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer3:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer3:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer3:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer3:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-rows: auto 300px auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer4:nth-child(1) {
+    background-color: brown;
+    
+}
+
+.subContainer4:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer4:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer4:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer4:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer4:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer4:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer4:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer4:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-rows: auto 30% auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer5:nth-child(1) {
+    background-color: brown;
+    
+}
+
+.subContainer5:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer5:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer5:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer5:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer5:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer5:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer5:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer5:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-rows: auto 2fr auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer6:nth-child(1) {
+    background-color: brown;
+    
+}
+
+.subContainer6:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer6:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer6:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer6:nth-child(5) {
+    background-color:lawngreen;
+}
+
+.subContainer6:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer6:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer6:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer6:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: 250px 1fr 2fr 20%;
+    grid-template-rows: auto 300px auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer7:nth-child(1) {
+    background-color: brown;
+    grid-column-end: span 2;
+}
+
+.subContainer7:nth-child(2) {
+    background-color:aquamarine;
+}
+
+.subContainer7:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer7:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer7:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer7:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer7:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer7:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer7:nth-child(9) {
+    background-color:darkgoldenrod;
+}
