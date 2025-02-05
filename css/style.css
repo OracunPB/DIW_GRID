@@ -335,7 +335,8 @@
 
 .subContainer7:nth-child(1) {
     background-color: brown;
-    grid-column-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .subContainer7:nth-child(2) {
@@ -381,18 +382,23 @@
 }
 
 .subContainer8 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 
 .subContainer8:nth-child(1) {
     background-color: brown;
-    grid-column-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .subContainer8:nth-child(2) {
     background-color:aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .subContainer8:nth-child(3) {
@@ -421,4 +427,399 @@
 
 .subContainer8:nth-child(9) {
     background-color:darkgoldenrod;
+}
+
+.container9 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer9 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer9:nth-child(1) {
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.subContainer9:nth-child(2) {
+    background-color:aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.subContainer9:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer9:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer9:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer9:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer9:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer9:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer9:nth-child(9) {
+    background-color:darkgoldenrod;
+}
+
+.container10 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.subContainer10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer10:nth-child(1) {
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.subContainer10:nth-child(2) {
+    background-color:aquamarine;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.subContainer10:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer10:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer10:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer10:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer10:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer10:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer10:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.subContainer11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer11:nth-child(1) {
+    background-color: brown;
+    grid-column-end: span 2;
+}
+
+.subContainer11:nth-child(2) {
+    background-color:aquamarine;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.subContainer11:nth-child(3) {
+    background-color:coral;
+}
+
+.subContainer11:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer11:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer11:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer11:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer11:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer11:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-column-end: span 4;
+}
+
+.subContainer12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer12:nth-child(1) {
+    background-color: brown;
+    grid-column-end: span 2;
+}
+
+.subContainer12:nth-child(2) {
+    background-color:aquamarine;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.subContainer12:nth-child(3) {
+    background-color:coral;
+    grid-row-end: span 3;
+}
+
+.subContainer12:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer12:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer12:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer12:nth-child(7) {
+    background-color:aquamarine;
+}
+
+.subContainer12:nth-child(8) {
+    background-color:coral;
+}
+
+.subContainer12:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-column-end: span 4;
+}
+
+.subContainer13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer13:nth-child(1) {
+    background-color: brown;
+    grid-column-end: span 2;
+}
+
+.subContainer13:nth-child(2) {
+    background-color:aquamarine;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.subContainer13:nth-child(3) {
+    background-color:coral;
+    grid-row-end: span 3;
+}
+
+.subContainer13:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer13:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer13:nth-child(6) {
+    background-color: brown;
+}
+
+.subContainer13:nth-child(7) {
+    background-color:aquamarine;
+    grid-row-end: span 2;
+}
+
+.subContainer13:nth-child(8) {
+    background-color:coral;
+    grid-column-end: span 2;
+}
+
+.subContainer13:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-column-end: span 4;
+}
+
+.subContainer14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer14:nth-child(1) {
+    background-color: brown;
+    grid-column: 1 / span 2;
+}
+
+.subContainer14:nth-child(2) {
+    background-color:aquamarine;
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.subContainer14:nth-child(3) {
+    background-color:coral;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 3;
+}
+
+.subContainer14:nth-child(4) {
+    background-color:darkgoldenrod;
+}
+
+.subContainer14:nth-child(5) {
+    background-color: lawngreen;
+}
+
+.subContainer14:nth-child(6) {
+    background-color: brown;
+
+}
+
+.subContainer14:nth-child(7) {
+    background-color:aquamarine;
+    grid-column: 4;
+    grid-row: 3 / span 2;
+}
+
+.subContainer14:nth-child(8) {
+    background-color:coral;
+    grid-column: 2 / span 2;
+}
+
+.subContainer14:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-column: 1 / span 4;
+    grid-row: 5;
+}
+
+.divisorPregunta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divisorRespuesta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: blue;
+}
+
+.container11 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: solid 2px;
+    padding: 5px;
+    row-gap: 20px;
+    column-gap: 10px;
+    grid-template-areas: "area1 area1 area2 area2"
+                         "area3 area4 area2 area2"
+                         "area3 area5 area6 area7"
+                         "area3 area8 area8 area7"
+                         "area9 area9 area9 area9";
+}
+
+.subContainer15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer15:nth-child(1) {
+    background-color: brown;
+    grid-area: area1;
+}
+
+.subContainer15:nth-child(2) {
+    background-color:aquamarine;
+    grid-area: area2;
+}
+
+.subContainer15:nth-child(3) {
+    background-color:coral;
+    grid-area: area3;
+}
+
+.subContainer15:nth-child(4) {
+    background-color:darkgoldenrod;
+    grid-area: area4;
+}
+
+.subContainer15:nth-child(5) {
+    background-color: lawngreen;
+    grid-area: area5;
+}
+
+.subContainer15:nth-child(6) {
+    background-color: brown;
+    grid-area: area6;
+
+}
+
+.subContainer15:nth-child(7) {
+    background-color:aquamarine;
+    grid-area: area7;
+}
+
+.subContainer15:nth-child(8) {
+    background-color:coral;
+    grid-area: area8;
+}
+
+.subContainer15:nth-child(9) {
+    background-color:darkgoldenrod;
+    grid-area: area9;
 }
